@@ -1,0 +1,30 @@
+{
+  "name": "adminliquor",
+  "version": "1.0.0",
+  "description": "Administration panel of Liquour Panama store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INCOVA-DEVS/adminLiquor.git"
+  },
+  "author": "MADTUN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INCOVA-DEVS/adminLiquor/issues"
+  },
+  "homepage": "https://github.com/INCOVA-DEVS/adminLiquor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "node": "^16.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,10 +1,6 @@
 // All rendering views controls are here
 const router = require('express').Router();
 
-router.get('/', (req, res) => {
-    res.send("Funcionando crack");
-});
-
 router.get('/login', (req, res) => {
     res.render('auth/login');
 });
@@ -15,6 +11,10 @@ router.get('/dashboard', (req, res) => {
 
 router.get('/allProducts', (req, res) => {
     res.render('Products/allProducts')
+});
+
+router.get('/Products', (req, res) => {
+    res.render('Products/Products')
 });
 //error response
 /*

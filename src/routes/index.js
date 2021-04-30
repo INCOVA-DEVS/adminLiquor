@@ -13,6 +13,9 @@ router.get('/dashboard', (req, res) => {
     res.render('dashboard/dashboard')
 });
 
+router.get('/allProducts', (req, res) => {
+    res.render('Products/allProducts')
+});
 //error response
 /*
 app.use(function(req, res, next) {
